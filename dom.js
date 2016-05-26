@@ -1,6 +1,6 @@
 /*
 
-1) // Add a script tag in the appropriate place.
+1) Add a script tag in the appropriate place.
 
 2) Using JavaScript, change the body's tag style so it has a font-family of the sans-serif font stack of your choice.
 
@@ -14,15 +14,8 @@ document.body.style.fontFamily = "Helvetica";
 
 document.getElementById("fullname").innerHTML = "David Grayboff";
 document.getElementById("hometown").innerHTML = "Longmeadow, MA";
-document.getElementById("movie").innerHTML = "TBD";
+document.getElementById("movie").innerHTML = "Star Wars";
 document.getElementById("food").innerHTML = "Ice Cream";
-
-/*var newclass = document.getElementByNameTag("li");
-newclass.classList.add("listitem");
-document.getElementByTagName("li").className = "listitem";
-for (var i = 0; i <listitem.length; i++) {
-  document.getElementsByClassName(listitem).color = "red";
-} */
 
 var x = document.querySelectorAll('li');
 
@@ -30,3 +23,12 @@ for (i = 0; i < x.length; i++) {
   x[i].classList.add("listitem");
   x[i].style.color = "red";
 }
+
+/*document.createElement("img"); img.src = "https://goo.gl/CE0REl";
+document.getElementByNameTag("img");*/
+
+var image = new Image;
+image.src = "https://goo.gl/CE0REl";
+document.body.appendChild(image);
+image.style.width = '50%';
+image.style.height = 'auto';
