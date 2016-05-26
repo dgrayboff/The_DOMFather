@@ -14,7 +14,7 @@ document.body.style.fontFamily = "Helvetica";
 
 document.getElementById("fullname").innerHTML = "David Grayboff";
 document.getElementById("hometown").innerHTML = "Longmeadow, MA";
-document.getElementById("movie").innerHTML = "Star Wars";
+document.getElementById("movie").innerHTML = "Lord of the Rings";
 document.getElementById("food").innerHTML = "Ice Cream";
 
 var x = document.querySelectorAll('li');
